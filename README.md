@@ -8,16 +8,16 @@ Quickstart:
 
 From the top level directory, switch to the source directory:
 
-  cd mesaflash
+    cd mesaflash
 
 In the source directory, install dependency and build:
 
-  sudo apt-get install libpci-dev
-  make
+    sudo apt-get install libpci-dev
+    make
 
 to get command line syntax:
 
-  ./mesaflash --help
+    ./mesaflash --help
 
 
 Build Debian Package
@@ -25,6 +25,6 @@ Build Debian Package
 
 Building a Debian package quick and dirty in place:
 
-  gbp buildpackage --git-ignore-new --git-upstream-branch=master --git-upstream-tree=BRANCH
+    gbp buildpackage --git-ignore-new --git-upstream-branch=master --git-upstream-tree=BRANCH
 
 TODO: make the package debian compatible (upstream branch, etc.)
